@@ -1,45 +1,76 @@
-# 🤖 ROS 机器人操作系统学习笔记
+# 🤖 ROS 机器人学习笔记
 
-> 基于 ROS Melodic + Ubuntu 18.04 的机器人开发课程完整笔记
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS-Melodic-blue?style=for-the-badge&logo=ros" />
+  <img src="https://img.shields.io/badge/Ubuntu-18.04-orange?style=for-the-badge&logo=ubuntu" />
+  <img src="https://img.shields.io/badge/Language-C++-green?style=for-the-badge&logo=cplusplus" />
+  <img src="https://img.shields.io/badge/课程-15节-red?style=for-the-badge" />
+</p>
 
----
-
-## 📋 课程目录
-
-| 课次 | 主题 | 笔记 |
-|------|------|------|
-| 第1次 | 环境配置 | [📖](./01-环境配置.md) |
-| 第2次 | ROS 工程认知 | [📖](./02-ROS工程认知.md) |
-| 第3次 | ROS 节点编写 | [📖](./03-ROS节点编写.md) |
-| 第4次 | ROS 话题通讯 | [📖](./04-ROS话题通讯.md) |
-| 第5次 | 仿真机器人及环境 | [📖](./05-仿真机器人及环境.md) |
-| 第6次 | ROS 服务 | [📖](./06-ROS服务.md) |
-| 第6次(实验2) | 机器人移动控制 | [📖](./07-机器人移动控制.md) |
-| 第8次(1) | 语音采集 | [📖](./08-语音采集.md) |
-| 第8次(2) | 语音听写 | [📖](./09-语音听写.md) |
-| 第8次(3) | 语义理解 | [📖](./10-语义理解.md) |
-| 第9次 | 地图构建（SLAM） | [📖](./11-地图构建.md) |
-| 第10次 | 自主导航 | [📖](./12-自主导航.md) |
-| 第11次 | 语音导航 | [📖](./13-语音导航.md) |
-| 第12次 | 人脸识别 | [📖](./14-人脸识别.md) |
-| 补充 | 机器人二次定位（自主充电） | [📖](./15-机器人二次定位.md) |
+<p align="center">
+  从零开始的 ROS 机器人开发完整学习路径<br/>
+  环境搭建 → 通信机制 → 语音交互 → 导航定位 → 视觉识别
+</p>
 
 ---
 
-## 🚀 快速参考
+## 📖 课程导航
 
-### ROS 开发通用流程
+### 🟢 基础篇 — 搭建你的第一个 ROS 工程
 
+| # | 主题 | 核心内容 | 笔记 |
+|---|------|----------|------|
+| 1 | 环境配置 | VMware + Ubuntu 虚拟机安装 | [📖](./01-环境配置.md) |
+| 2 | ROS 工程认知 | 工作空间、功能包、catkin 编译 | [📖](./02-ROS工程认知.md) |
+| 3 | 节点编写 | Node、Master、roscpp、launch | [📖](./03-ROS节点编写.md) |
+
+### 🟡 进阶篇 — 掌握 ROS 核心通信机制
+
+| # | 主题 | 核心内容 | 笔记 |
+|---|------|----------|------|
+| 4 | 话题通讯 | Topic 发布/订阅、自定义消息 | [📖](./04-ROS话题通讯.md) |
+| 5 | 仿真环境 | Gazebo 仿真 + Rviz 可视化 | [📖](./05-仿真机器人及环境.md) |
+| 6 | 服务通讯 | Service 请求/应答模型 | [📖](./06-ROS服务.md) |
+| 6+ | 移动控制 | cmd_vel 话题控制机器人运动 | [📖](./07-机器人移动控制.md) |
+
+### 🔴 实战篇 — 语音、导航、视觉
+
+| # | 主题 | 核心内容 | 笔记 |
+|---|------|----------|------|
+| 8.1 | 语音采集 | 麦克风录音服务调用 | [📖](./08-语音采集.md) |
+| 8.2 | 语音听写 | 语音转文字（ASR） | [📖](./09-语音听写.md) |
+| 8.3 | 语义理解 | AIUI 意图识别与槽位提取 | [📖](./10-语义理解.md) |
+| 9 | 地图构建 | SLAM + gmapping 建图 | [📖](./11-地图构建.md) |
+| 10 | 自主导航 | Navigation Stack + 多点巡航 | [📖](./12-自主导航.md) |
+| 11 | 语音导航 | 语音指令 → 导航 → 语音播报 | [📖](./13-语音导航.md) |
+| 12 | 人脸识别 | dlib + ROS 服务封装 | [📖](./14-人脸识别.md) |
+| — | 自主充电 | AR 码跟踪 + 二次定位 | [📖](./15-机器人二次定位.md) |
+
+---
+
+## 🗺️ 学习路线
+
+```mermaid
+graph LR
+    A[环境配置] --> B[工程认知]
+    B --> C[节点编写]
+    C --> D[话题通讯]
+    D --> E[仿真环境]
+    E --> F[服务通讯]
+    F --> G[移动控制]
+    G --> H[语音交互]
+    H --> I[地图构建]
+    I --> J[自主导航]
+    J --> K[语音导航]
+    K --> L[人脸识别]
 ```
-1. 创建功能包    catkin_create_pkg <name> <deps>
-2. 编写源码      src/xxx.cpp
-3. 修改 CMake    add_executable + target_link_libraries
-4. 编译          cd ~/ros_workspace && catkin_make
-5. 刷新环境      source devel/setup.bash
-6. 启动          roscore → rosrun / roslaunch
-```
 
-### 常用 ROS 命令速查
+---
+
+## ⚡ 快速参考
+
+<details>
+<summary>ROS 常用命令速查</summary>
 
 | 命令 | 用途 |
 |------|------|
@@ -51,11 +82,50 @@
 | `rosservice list` | 列出服务 |
 | `rosservice call /srv args` | 调用服务 |
 | `rosnode list` | 列出节点 |
-| `rosnode info /node` | 节点信息 |
 | `rqt_graph` | 节点通信可视化 |
 | `rosmsg show <type>` | 消息结构 |
-| `rosrun tf tf_echo /frame1 /frame2` | 坐标变换 |
+| `rosrun tf tf_echo /f1 /f2` | 坐标变换 |
+
+</details>
+
+<details>
+<summary>标准开发流程</catkin_make>
+
+```
+1. catkin_create_pkg <name> <deps>   # 创建功能包
+2. 编写源码 src/xxx.cpp               # 写代码
+3. 修改 CMakeLists.txt                # add_executable + target_link_libraries
+4. catkin_make                        # 编译
+5. source devel/setup.bash            # 刷新环境
+6. roslaunch / rosrun                 # 启动
+```
+
+</details>
+
+<details>
+<summary>Topic vs Service 对比</summary>
+
+| 特性 | Topic | Service |
+|------|-------|---------|
+| 通信方式 | 异步单向 | 同步双向 |
+| 模式 | 发布/订阅 | 请求/应答 |
+| 适用场景 | 周期性数据 | 按需查询 |
+| 资源占用 | 持续传输 | 按需调用 |
+| 类比 | 广播 | 打电话 |
+
+</details>
 
 ---
 
-> 📝 笔记整理自 ROS 机器人课程，基于 ROS Melodic + Ubuntu 18.04
+## 📚 参考资源
+
+- [ROS Wiki](http://wiki.ros.org/) — 官方文档
+- [Navigation Stack](https://github.com/ros-planning/navigation) — 导航功能包源码
+- [Gmapping](http://wiki.ros.org/gmapping) — SLAM 算法文档
+- [face_recognition](https://github.com/ageitgey/face_recognition) — 人脸识别库
+
+---
+
+<p align="center">
+  📝 整理自 ROS 机器人课程 · ROS Melodic + Ubuntu 18.04
+</p>
