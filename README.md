@@ -54,7 +54,7 @@
 ## 🗺️ 学习路线
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '12px', 'borderRadius': '20px', 'lineColor': '#90a4ae', 'arrowColor': '#90a4ae', 'primaryColor': '#e3f2fd', 'primaryTextColor': '#37474f', 'primaryBorderColor': '#90caf9'}}}%%
 graph TD
     A["第1课 环境配置"] --> B["第2课 ROS工程认知"]
     B --> C["第3课 节点编写"]
@@ -69,19 +69,21 @@ graph TD
     K --> L["第12课 人脸识别"]
     L --> M["自主充电"]
 
-    style A fill:#e8f5e9,stroke:#a5d6a7,color:#2e7d32
-    style B fill:#e8f5e9,stroke:#a5d6a7,color:#2e7d32
-    style C fill:#e8f5e9,stroke:#a5d6a7,color:#2e7d32
-    style D fill:#fff3e0,stroke:#ffcc80,color:#e65100
-    style E fill:#fff3e0,stroke:#ffcc80,color:#e65100
-    style F fill:#fff3e0,stroke:#ffcc80,color:#e65100
-    style G fill:#fff3e0,stroke:#ffcc80,color:#e65100
-    style H fill:#fce4ec,stroke:#ef9a9a,color:#c62828
-    style I fill:#fce4ec,stroke:#ef9a9a,color:#c62828
-    style J fill:#fce4ec,stroke:#ef9a9a,color:#c62828
-    style K fill:#fce4ec,stroke:#ef9a9a,color:#c62828
-    style L fill:#fce4ec,stroke:#ef9a9a,color:#c62828
-    style M fill:#fce4ec,stroke:#ef9a9a,color:#c62828
+    style A fill:#e8f5e9,stroke:#c8e6c9,color:#2e7d32,stroke-width:1px
+    style B fill:#e8f5e9,stroke:#c8e6c9,color:#2e7d32,stroke-width:1px
+    style C fill:#e8f5e9,stroke:#c8e6c9,color:#2e7d32,stroke-width:1px
+    style D fill:#fff8e1,stroke:#ffecb3,color:#f57f17,stroke-width:1px
+    style E fill:#fff8e1,stroke:#ffecb3,color:#f57f17,stroke-width:1px
+    style F fill:#fff8e1,stroke:#ffecb3,color:#f57f17,stroke-width:1px
+    style G fill:#fff8e1,stroke:#ffecb3,color:#f57f17,stroke-width:1px
+    style H fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+    style I fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+    style J fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+    style K fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+    style L fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+    style M fill:#fce4ec,stroke:#f8bbd0,color:#c62828,stroke-width:1px
+
+    linkStyle default stroke:#b0bec5,stroke-width:1px
 ```
 
 ---
