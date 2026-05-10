@@ -1,13 +1,13 @@
 <p align="center">
-  <img width="460" src="https://img.shields.io/badge/🤖_ROS_机器人学习笔记-5b8fb9?style=flat-square&labelColor=89b8d8&color=5b8fb9" />
+  <img width="460" src="https://img.shields.io/badge/🤖_ROS_机器人学习笔记-2b5797?style=for-the-badge&labelColor=3b7dd8&color=2b5797" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ubuntu_18.04-e8a87c?style=flat-square&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS_Melodic-7eafc4?style=flat-square&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-7ea4c4?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gazebo-b8b8b8?style=flat-square" />
-  <img src="https://img.shields.io/badge/15_Lessons-a8d5a2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Ubuntu_18.04-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS_Melodic-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gazebo-777777?style=flat-square" />
+  <img src="https://img.shields.io/badge/15_Lessons-4CAF50?style=flat-square" />
 </p>
 
 <p align="center">
@@ -53,38 +53,42 @@
 
 ## 🗺️ 学习路线
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '11px', 'lineColor': '#b0c4de', 'primaryColor': '#f0f4f8', 'primaryTextColor': '#5a6e7f', 'primaryBorderColor': '#c5d5e5'}}}%%
-graph TD
-    A["第1课 环境配置"] --> B["第2课 ROS工程认知"]
-    B --> C["第3课 节点编写"]
-    C --> D["第4课 话题通讯"]
-    D --> E["第5课 仿真环境"]
-    E --> F["第6课 服务通讯"]
-    F --> G["第6+课 移动控制"]
-    G --> H["第8课 语音交互"]
-    H --> I["第9课 地图构建"]
-    I --> J["第10课 自主导航"]
-    J --> K["第11课 语音导航"]
-    K --> L["第12课 人脸识别"]
-    L --> M["自主充电"]
+<p align="center">
 
-    style A fill:#e8f5e9,stroke:#dcedc8,color:#66bb6a,stroke-width:1px
-    style B fill:#e8f5e9,stroke:#dcedc8,color:#66bb6a,stroke-width:1px
-    style C fill:#e8f5e9,stroke:#dcedc8,color:#66bb6a,stroke-width:1px
-    style D fill:#fff8e1,stroke:#fff9c4,color:#fbc02d,stroke-width:1px
-    style E fill:#fff8e1,stroke:#fff9c4,color:#fbc02d,stroke-width:1px
-    style F fill:#fff8e1,stroke:#fff9c4,color:#fbc02d,stroke-width:1px
-    style G fill:#fff8e1,stroke:#fff9c4,color:#fbc02d,stroke-width:1px
-    style H fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
-    style I fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
-    style J fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
-    style K fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
-    style L fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
-    style M fill:#fce4ec,stroke:#f8bbd0,color:#ef9a9a,stroke-width:1px
+<!-- 基础篇 -->
+<a href="./01-环境配置"><img src="https://img.shields.io/badge/1._环境配置-4CAF50?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./02-ROS工程认知"><img src="https://img.shields.io/badge/2._ROS工程认知-4CAF50?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./03-ROS节点编写"><img src="https://img.shields.io/badge/3._节点编写-4CAF50?style=flat&logoColor=white" /></a>
 
-    linkStyle default stroke:#b0c4de,stroke-width:1px
-```
+<br/>
+
+<!-- 进阶篇 -->
+<a href="./04-ROS话题通讯"><img src="https://img.shields.io/badge/4._话题通讯-FF9800?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./05-仿真机器人及环境"><img src="https://img.shields.io/badge/5._仿真环境-FF9800?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./06-ROS服务"><img src="https://img.shields.io/badge/6._服务通讯-FF9800?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./07-机器人移动控制"><img src="https://img.shields.io/badge/6+._移动控制-FF9800?style=flat&logoColor=white" /></a>
+
+<br/>
+
+<!-- 实战篇 -->
+<a href="./08-语音采集"><img src="https://img.shields.io/badge/8._语音交互-f44336?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./11-地图构建"><img src="https://img.shields.io/badge/9._地图构建-f44336?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./12-自主导航"><img src="https://img.shields.io/badge/10._自主导航-f44336?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./13-语音导航"><img src="https://img.shields.io/badge/11._语音导航-f44336?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./14-人脸识别"><img src="https://img.shields.io/badge/12._人脸识别-f44336?style=flat&logoColor=white" /></a>
+&nbsp;→&nbsp;
+<a href="./15-机器人二次定位"><img src="https://img.shields.io/badge/自主充电-f44336?style=flat&logoColor=white" /></a>
+
+</p>
 
 ---
 
