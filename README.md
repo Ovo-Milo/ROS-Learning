@@ -1,18 +1,12 @@
 <p align="center">
-  <img width="460" src="https://img.shields.io/badge/🤖_ROS_机器人学习笔记-2b5797?style=for-the-badge&labelColor=3b7dd8&color=2b5797" />
+  <img src="./logo.svg" width="480" alt="ROS 机器人学习笔记" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ubuntu_18.04-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS_Melodic-22314E?style=flat-square&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gazebo-777777?style=flat-square" />
-  <img src="https://img.shields.io/badge/15_Lessons-4CAF50?style=flat-square" />
-</p>
-
-<p align="center">
-  从零开始的 ROS 机器人开发完整学习路径<br/>
-  环境搭建 → 通信机制 → 语音交互 → 导航定位 → 视觉识别
+  <a href="https://github.com/Ovo-Milo/ros/stargazers"><img src="https://img.shields.io/github/stars/Ovo-Milo/ros?style=flat&color=gold" alt="Stars" /></a>
+  <a href="https://github.com/Ovo-Milo/ros/network/members"><img src="https://img.shields.io/github/forks/Ovo-Milo/ros?style=flat&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/Ovo-Milo/ros/issues"><img src="https://img.shields.io/github/issues/Ovo-Milo/ros?style=flat&color=red" alt="Issues" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License" />
 </p>
 
 ---
