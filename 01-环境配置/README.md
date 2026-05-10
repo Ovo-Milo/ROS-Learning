@@ -1,6 +1,6 @@
 # 第1次课：环境配置
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -44,4 +44,4 @@ ZC3TK-63GE6-481JY-WWW5T-Z7ATA
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

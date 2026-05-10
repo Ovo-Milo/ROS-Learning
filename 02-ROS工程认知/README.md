@@ -1,6 +1,6 @@
 # 第2次课：ROS 工程认知
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -101,4 +101,4 @@ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

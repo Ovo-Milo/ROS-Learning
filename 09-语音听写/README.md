@@ -1,6 +1,6 @@
 # 语音听写
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -90,4 +90,4 @@ roslaunch bobac3_audio voice_dictation.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

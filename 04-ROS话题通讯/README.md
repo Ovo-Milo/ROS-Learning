@@ -1,6 +1,6 @@
 # 第4次课：ROS 话题通讯
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -188,4 +188,4 @@ rqt_graph
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

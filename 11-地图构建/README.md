@@ -1,6 +1,6 @@
 # 地图构建（SLAM）
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -85,4 +85,4 @@ rosrun map_server map_saver -f demo
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

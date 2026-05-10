@@ -1,6 +1,6 @@
 # 人脸识别
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -118,4 +118,4 @@ int main(int argc, char **argv)
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

@@ -1,6 +1,6 @@
 # 实验2：机器人移动控制
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -91,4 +91,4 @@ rosrun robot_control robot_control_node
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

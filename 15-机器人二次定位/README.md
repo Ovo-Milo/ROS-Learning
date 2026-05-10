@@ -1,6 +1,6 @@
 # 机器人二次定位（自主充电）
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -129,4 +129,4 @@ roslaunch secondary_localization track.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

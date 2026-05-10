@@ -1,6 +1,6 @@
 # 语音导航
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -136,4 +136,4 @@ roslaunch bobac3_audio nav.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

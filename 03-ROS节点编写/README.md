@@ -1,6 +1,6 @@
 # 第3次课：ROS 节点编写
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -159,4 +159,4 @@ roslaunch robot_bringup startup.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

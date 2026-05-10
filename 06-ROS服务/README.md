@@ -1,6 +1,6 @@
 # 第6次课：ROS 服务
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -151,4 +151,4 @@ int main(int argc, char **argv)
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

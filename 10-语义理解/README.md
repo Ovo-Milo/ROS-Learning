@@ -1,6 +1,6 @@
 # 语义理解
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -122,4 +122,4 @@ roslaunch bobac3_audio voice_semanteme.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)

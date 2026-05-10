@@ -1,6 +1,6 @@
 # 语音采集
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
 
 ---
 
@@ -94,4 +94,4 @@ roslaunch bobac3_audio voice_collect.launch
 
 ---
 
-[← 返回目录](./README.md)
+[← 返回目录](../README.md)
