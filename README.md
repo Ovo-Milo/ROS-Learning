@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.svg" width="480" alt="ROS 机器人学习笔记" />
+  <img src="https://raw.githubusercontent.com/Ovo-Milo/ros/main/logo.svg" width="480" alt="ROS 机器人学习笔记" />
 </p>
 
 <p align="center">
