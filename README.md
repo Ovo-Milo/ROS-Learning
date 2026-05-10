@@ -3,10 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ovo-Milo/ros/stargazers"><img src="https://img.shields.io/github/stars/Ovo-Milo/ros?style=flat&color=gold" alt="Stars" /></a>
-  <a href="https://github.com/Ovo-Milo/ros/network/members"><img src="https://img.shields.io/github/forks/Ovo-Milo/ros?style=flat&color=blue" alt="Forks" /></a>
-  <a href="https://github.com/Ovo-Milo/ros/issues"><img src="https://img.shields.io/github/issues/Ovo-Milo/ros?style=flat&color=red" alt="Issues" /></a>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License" />
+  <img src="https://img.shields.io/badge/Ubuntu_18.04-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS_Melodic-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gazebo-777777?style=flat-square" />
+  <img src="https://img.shields.io/badge/15_Lessons-4CAF50?style=flat-square" />
 </p>
 
 ---
