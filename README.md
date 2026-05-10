@@ -51,18 +51,33 @@
 ## 🗺️ 学习路线
 
 ```mermaid
-graph LR
-    A[环境配置] --> B[工程认知]
-    B --> C[节点编写]
-    C --> D[话题通讯]
-    D --> E[仿真环境]
-    E --> F[服务通讯]
-    F --> G[移动控制]
-    G --> H[语音交互]
-    H --> I[地图构建]
-    I --> J[自主导航]
-    J --> K[语音导航]
-    K --> L[人脸识别]
+graph TD
+    A["🟢 第1课 环境配置"] --> B["🟢 第2课 ROS工程认知"]
+    B --> C["🟢 第3课 节点编写"]
+    C --> D["🟡 第4课 话题通讯"]
+    D --> E["🟡 第5课 仿真环境"]
+    E --> F["🟡 第6课 服务通讯"]
+    F --> G["🟡 第6+课 移动控制"]
+    G --> H["🔴 第8课 语音交互"]
+    H --> I["🔴 第9课 地图构建"]
+    I --> J["🔴 第10课 自主导航"]
+    J --> K["🔴 第11课 语音导航"]
+    K --> L["🔴 第12课 人脸识别"]
+    L --> M["🔴 自主充电"]
+
+    style A fill:#4CAF50,stroke:#388E3C,color:#fff
+    style B fill:#4CAF50,stroke:#388E3C,color:#fff
+    style C fill:#4CAF50,stroke:#388E3C,color:#fff
+    style D fill:#FF9800,stroke:#F57C00,color:#fff
+    style E fill:#FF9800,stroke:#F57C00,color:#fff
+    style F fill:#FF9800,stroke:#F57C00,color:#fff
+    style G fill:#FF9800,stroke:#F57C00,color:#fff
+    style H fill:#F44336,stroke:#D32F2F,color:#fff
+    style I fill:#F44336,stroke:#D32F2F,color:#fff
+    style J fill:#F44336,stroke:#D32F2F,color:#fff
+    style K fill:#F44336,stroke:#D32F2F,color:#fff
+    style L fill:#F44336,stroke:#D32F2F,color:#fff
+    style M fill:#F44336,stroke:#D32F2F,color:#fff
 ```
 
 ---
